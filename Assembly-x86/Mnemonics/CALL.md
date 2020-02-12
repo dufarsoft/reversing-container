@@ -1,7 +1,7 @@
 CALL ( Chamada )
 =================
 
-Sintaxe:
+### Sintaxe:
 
 	CALL ARG1
 
@@ -9,7 +9,7 @@ Sintaxe:
 
 - Em suma, a instrução CALL transfere o controle do programa para uma sub-rotina. Quando a sub-rotina é concluída, o controle é transferido para a linha após a instrução CALL.
 
-- Exemplos de uso, da instrução CALL :
+#### Exemplos de uso, da instrução CALL :
 
 		CALL 401000   ( call endereço)
 

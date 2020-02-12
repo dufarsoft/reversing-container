@@ -1,7 +1,7 @@
 MOV ( mover )
 ==============
 
-Sintaxe:
+### Sintaxe:
 
 	MOV DEST, SRC
 
