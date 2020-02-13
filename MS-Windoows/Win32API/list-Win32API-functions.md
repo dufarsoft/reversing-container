@@ -8,7 +8,7 @@ _Lista de funções da API do Windows, documentadas por mim durante meu aprendiz
 - As funções documentadas abaixo estão organizadas por DLL.
 
 
-### kernel32.DLL
+## kernel32.DLL
 
 
 [IsDebuggerPresent](KERNEL32/IsDebuggerPresent.md)
@@ -16,7 +16,7 @@ _Lista de funções da API do Windows, documentadas por mim durante meu aprendiz
 
 ------
 
-### user32.DLL
+## user32.DLL
 
 
 [CreateFileA](USER32/CreateFileA.md)
