@@ -14,7 +14,7 @@ _Documentos escritos/traduzidos por mim, ao decorrer do meu aprendizado sobre o 
 
 [Instructions Assembly](01-instrucoes.md)
 
-[Lista de Mnemônicos](Mnemonics/README.md)
+[Lista de Mnemônicos](Mnemonics/readme.md)
 
 
 
