@@ -9,11 +9,6 @@ Assembly Language Concepts
 - Cada comando assembly é representado por um número, chamado código de operação ou "opcode". O código de objeto é essencialmente uma seqüência de opcodes e outros números usados ​​em conexão com os opcodes para executar operações. A CPU lê constantemente o código-objeto da memória, decodifica-o e age com base nas instruções incorporadas. Quando os desenvolvedores escrevem código em linguagem assembly (uma ocorrência bastante rara nos dias de hoje), eles usam um programa assembler para traduzir o código da linguagem assembly textual em código binário, que pode ser decodificado por uma CPU. Na outra direção e mais relevante para a nossa narrativa, um desasembly faz exatamente o oposto. Ele lê o código do objeto e gera o mapeamento textual para cada instrução nele. Essa é uma operação relativamente simples de executar porque a linguagem de montagem textual é simplesmente uma representação diferente do código do objeto. Os disassemblers são ferramentas fundamentais para os reversores.
 
 
-### Próximos conceitos de base:
-
-!Instruções[] :
-
-
 
 
 ----
