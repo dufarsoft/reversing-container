@@ -2,12 +2,12 @@ Mnemônics List
 ----------------
 
 
-### [CALL](call.md) - Call Procedure
+### [CALL](CALL.md) - Call Procedure
 
-### [MOV](mov.md) 	- Move
+### [MOV](MOV.md) 	- Move
 
-### [POP](pop.md) 	- Pop a Value from the Stack
+### [POP](POP.md) 	- Pop a Value from the Stack
 
-### [PUSH](push.md) - Push Word, Doubleword or Quadword Onto the Stack.
+### [PUSH](PUSH.md) - Push Word, Doubleword or Quadword Onto the Stack.
 
-### [TEST](test.md) - Logical Compare
+### [TEST](TEST.md) - Logical Compare
