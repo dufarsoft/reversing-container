@@ -32,3 +32,10 @@ A Win32 API , é o conjunto de funções que o Windows oferece para seus program
 		
 		UINT : unsigned int ou DWORD (32-bits)
 
+----
+
+
+[Funções da API do Windows](list-Win32API-functions.md)
+---------------------------------------------------------
+
+
