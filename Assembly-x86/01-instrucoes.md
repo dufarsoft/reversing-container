@@ -19,9 +19,9 @@ JMP	        | 0x41414141  |
 
 - Os principais operandos que podemos utilizar são :
 
-1. IMEDIATOS : 0x42, 0x00401828, 0x0C
-2. REGISTRADORES : EAX, ECX, EBP
-3. ENDEREÇOS DE MEMÓRIA : [0x0012F8D4], [ECX], [EBP + 0x08]
+1. IMEDIATOS = 0x42, 0x00401828, 0x0C
+2. REGISTRADORES = EAX, ECX, EBP
+3. ENDEREÇOS DE MEMÓRIA = [0x0012F8D4], [ECX], [EBP + 0x08]
 
 - Quando passamos valores de operandos entre colchetes, como [0xff273] ou [EBP + 0xF11]  estamos referindo a endereços de memória.
 
