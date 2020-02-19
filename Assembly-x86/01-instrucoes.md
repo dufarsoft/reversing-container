@@ -4,16 +4,15 @@ _Machine instructions generally fall into three categories: data movement, arith
 
 - Uma instrução assembly completa, terá o Mnemônico da instrução a ser executada, depois o Operador onde ficará o resultado da operação(Operador de destino) e por último podemos ter um Operador origem, que irá fazer parte da operação a ser executada. Exemplo:
 
-		-----------------------------------------
-		|Mnemônico | Op.destino | Op. Origem 	|
-		|----------------------------------------
-		|MOV			ECX,		0x42	    |	
-		|LEA			EDX,		[EBP-28]    |
-		|SUB			ESP,		0x0		    |
-		|PUSH			EBP 		            | 
-		|XOR			EAX,		EAX         |
-		|JMP			0x41414141		        |
-		-----------------------------------------
+
+Mnemônico   | Op.destino  | Op. Origem 
+----------- | ----------- |------------
+MOV	        | ECX,        | 0x42	
+LEA	        | EDX,		  | [EBP-28]
+SUB	        | ESP,		  | 0x0
+PUSH        | EBP 		  | 
+XOR	        | EAX,		  | EAX
+JMP	        | 0x41414141  |
 
 
 #### Operandos
