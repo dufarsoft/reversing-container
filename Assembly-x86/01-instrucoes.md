@@ -20,21 +20,25 @@ JMP	        | 0x41414141  |
 - Os principais operandos que podemos utilizar são :
 
 1. IMEDIATOS = 0x42, 0x00401828, 0x0C
+
 2. REGISTRADORES = EAX, ECX, EBP
+
 3. ENDEREÇOS DE MEMÓRIA = [0x0012F8D4], [ECX], [EBP + 0x08]
 
-- Quando passamos valores de operandos entre colchetes, como [0xff273] ou [EBP + 0xF11]  estamos referindo a endereços de memória.
+_Os valores de operandos entre colchetes, como [0xff273] ou [EBP + 0xF11] são referentes ao valor contido no endereços de memória apontado dentro dos colchetes_.
 
 #### Opcodes 
 
-- Pelo fato do processador só conseguir decodificar os Opcodes ( hexadecimais ), cada instrução em assembly que usamos tem seu respectivo opcode. 
-Opcode é basicamente o código(hexadecimal) que representa respectivos mnêmonicos/operadores assembly.
+- Pelo fato do processador só conseguir decodificar os Opcodes ( hexadecimais ), então cada instrução em assembly que usamos tem seu respectivo opcode.
+
+- Em suma, Opcodes, são os códigos que o processador consegue ler e entender.
+- Mnemônicos, é a tradução legível para humanos desses Opcodes.
 
 Exemplo:
 
 		Instrução| MOV EAX, 0x42
 		Opcodes | B9 42 00 00 00
 
+_Então os Opcodes são basicamente o código(hexadecimal) que representa respectivos mnêmonicos/operandos assembly_.
 
-- Em suma, Opcodes, são os códigos que o processador consegue ler e entender.
-- Mnemônicos, é a tradução legível para humanos dos opcodes que o processador lê.
+
