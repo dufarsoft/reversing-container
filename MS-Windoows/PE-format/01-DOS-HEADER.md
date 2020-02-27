@@ -4,7 +4,7 @@
 
 - O arquivo PE começa com o DOS Header, que sempre ocupa os primeiros 64bytes do arquivo.
 
-_Abaixo a estrutura oficial do DOS Header_:
+_Abaixo a estrutura oficial do "DOS Header"_ :
 
 
 	typedef struct IMAGE_DOS_HEADER
@@ -32,7 +32,9 @@ _Abaixo a estrutura oficial do DOS Header_:
 	IMAGE_DOS_HEADER;
 
 
+*Como o cabeçalho do DOS possui um tamanho fixo, seus respectivos campos sempre vão estar em uma posição Fixa no arquivo. Isso se refere aos campos e seu devido tamanho, porém os valores destes campos podem mudar de arquivo para a arquivo.*
 
+---
 
 Detalhes dos campos do IMAGE_DOS_HEADER:
 -----------------------------------------
@@ -40,7 +42,7 @@ Detalhes dos campos do IMAGE_DOS_HEADER:
 
 ##### e_magic
 
-- É um valor de 4 bytes( DWORD ) que identifica um executável DOS, esse valor é representado em ASCII pela sigla "MZ" ( A sigla 'MZ' quer dizer 'Mark Zbikowsky', que foi um dos idealizadores do MS-DOS ). Essa sigla é um dos dados que o Windows Loader checa, na hora de rodar um programa. Caso ela não exista ou esteja mnodificada, o Windows não reconhece o programa/arquivo como um executável.
+- É uma WORD (2bytes) que identifica um executável DOS, esse valor é representado em ASCII pela sigla "MZ" ( A sigla 'MZ' quer dizer 'Mark Zbikowsky', que foi um dos idealizadores do MS-DOS ). Essa sigla é um dos dados que o Windows Loader checa, na hora da execução de um programa. Caso ela não exista ou esteja mnodificada, o Windows não reconhece o programa/arquivo como um executável.
 
 ##### e_cblp
 
@@ -66,7 +68,7 @@ Detalhes dos campos do IMAGE_DOS_HEADER:
 
 ##### e_lfarlc
 
-- É um valor de 2 bytes ( WORD ) que armazena o offset( a posição ) onde está localizado o início do DOS-Stub. 
+- É uma WORD (2 bytes) que armazena o offset( a posição ) onde está localizado o início do DOS-Stub. 
 
 ##### e_ovno
 
@@ -80,4 +82,17 @@ Detalhes dos campos do IMAGE_DOS_HEADER:
 
 ##### e_lfanew
 
-- É um valor de 4 bytes ( DWORD ) que armazena o offset( a posição ) onde está localizado o início do Coff Header ( cabeçalho PE ).
+- O Campo e_lfanew , normalmente fica na posição 0x3c que no caso são os 4 últimos bytes de 64 bytes do IMAGE_DOS_HEADER.
+
+- É uma DWORD(4bytes) que armazena o offset onde está localizado o início do COFF Header(Cabeçalho PE) que contém um sequencia fixa de 4 bytes : 
+
+		54 50 00 00
+
+----
+
+
+
+
+
+
+
