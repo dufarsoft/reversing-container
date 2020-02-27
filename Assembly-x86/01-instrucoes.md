@@ -23,9 +23,9 @@ JMP	        | 0x41414141  |
 
 2. REGISTRADORES = EAX, ECX, EBP
 
-3. ENDEREÇOS DE MEMÓRIA = [0x0012F8D4], [ECX], [EBP + 0x08]
-
-_Os valores de operandos entre colchetes, como [0xff273] ou [EBP + 0xF11] são referentes ao valor contido no endereços de memória apontado dentro dos colchetes_.
+3. ENDEREÇOS EM MEMÓRIA = [0x0012F8D4], [ECX], [EBP + 0x08]
+	
+_O valor real dos operandos entre colchetes, como [0xff273] ou [EBP + 0xF11] é o valor contido no endereço de memória que é igual o resultado de alguma operação aritimética entre colchetes ou algum valor imediato, setado entre colchetes também_.
 
 #### Opcodes 
 

@@ -9,28 +9,8 @@ A Win32 API , é o conjunto de funções que o Windows oferece para seus program
 
 - Se o programa precisar acessar uma função de baixo nível, "Invokar" uma função específica... a API permite interações com o kernel.
 
-- O código das APIs, geralmente ficam nas DLLs do windows ( Ex: Y função A da x.dll ).
+- O código das APIs, geralmente ficam nas DLLs do windows ( Ex: A função Y da x.dll ).
 
-### Help :
-
-- A Microsoft usa algumas convenções de nomes que precisam ser detalhadas, para o melhor entendimento dos protótipos das funções da API do Windows /.
-
-
-		WINAPI : Define que a convenção de chamada da função é a '__ stdcall'
-		
-		_In_ : Define que o parâmetro é de entrada
-		
-		_Out_ : Define que o parâmetro é de saída (a função vai escrever nele)
-		
-		_opt_ : O parâmetro é opcional (pode ser NULL)
-		
-		HANDLE : Um número identificador de um objeto no ambiente Windows. Um handle é um número que identifica um objeto (arquivo, chave de registro, diretório, etc) 		aberto usado por um processo
-		
-		HWND : Um handle (identificador) da janela
-		
-		LPCTSTR : Long Pointer to a Const TCHAR STRing
-		
-		UINT : unsigned int ou DWORD (32-bits)
 
 ----
 

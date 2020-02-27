@@ -5,6 +5,8 @@ CALL ( Chamada )
 
 	CALL ARG1
 
+_Opcode_: E8
+
 - Essa instrução faz um salto para o início de uma sub-rotina. Além disso ela coloca na pilha, o endereço RVA(relative virtual address) da próxima instrução.. que será o ponto de retorno após a execução da sub-rotina.
 
 - Em suma, a instrução CALL transfere o controle do programa para uma sub-rotina. Quando a sub-rotina é concluída, o controle é transferido para a linha após a instrução CALL.

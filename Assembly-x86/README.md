@@ -16,5 +16,5 @@ _Documentos escritos/traduzidos por mim, ao decorrer do meu aprendizado sobre o 
 
 [Lista de Mnemônicos](Mnemonics/readme.md)
 
-
+[Dicas e Convenções](02-convencoes.md)
 

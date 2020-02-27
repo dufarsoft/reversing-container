@@ -1,5 +1,5 @@
-Dicas de alterações que podem ser realizadas no registro HKEY_LOCAL_MACHINE
-----------------------------------------------------------------------------
+Alterações que podem ser feitas pela chave de registro HKEY_LOCAL_MACHINE
+--------------------------------------------------------------------------
 
 
 #### 0x01 - No seguinte registro, podemos programar uma DLL/EXE para ser carregado juntamente a qualquer aplicativo que é executado. Uma vez que essa implementação é realizada, toda vez que um aplicativo é executado; também será executado em pararelo a .dll ou .exe que foi setado como valor.

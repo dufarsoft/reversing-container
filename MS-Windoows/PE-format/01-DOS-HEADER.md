@@ -1,34 +1,41 @@
 ## DOS Header ( Cabeçalho MZ do DOS )
 
+- Cabeçalhos, como o próprio nome diz, são áreas de dados no ínicio de um arquivo. São definidos por conjuntos de diferentes campos que possuem valores.
+
 - O arquivo PE começa com o DOS Header, que sempre ocupa os primeiros 64bytes do arquivo.
-- Abaixo a estrutura oficial do DOS Header:
 
-			IMAGE_DOS_HEADER STRUCT
-			  e_magic    - WORD : Assinatura "MZ" ( DOS Signature )
-			  e_cblp     - WORD : Tamanho da última página.
-			  e_cp       - WORD : Total de páginas.
-			  e_crlc     - WORD : Itens de relocação.
-			  e_cparhdr  - WORD : Tamanho do cabeçalho DOS.
-			  e_minalloc - WORD : Tamanho mínimo da memória.
-			  e_maxalloc - WORD : Tamanho máximo da memória.
-			  e_ss       - WORD : Valor inicial do registrador SS ( Stack Segment )
-			  e_sp       - WORD : Valor inicial do registrador SP ( Stack Pointer )
-			  e_csum     - WORD : Checksum do cabeçalho DOS
-			  e_ip       - WORD : Valor inicial do registrador IP ( Instrution Pointer )
-			  e_cs       - WORD : Valor inicial do registrador CS ( Code Segment )
-			  e_lfarlc   - WORD : Offset do fragmento stub do DOS.
-			  e_ovno     - WORD : Overlay
-			  e_res      - WORD : 
-			  e_oemid    - WORD : Identificador OEM
-			  e_oeminfo  - WORD : Informações OEM
-			  e_res2     - WORD : 
-			  e_lfanew   - DWORD: Offset do cabeçalho PE COFF
-
-			IMAGE_DOS_HEADER ENDS;
+_Abaixo a estrutura oficial do DOS Header_:
 
 
-Detalhes dos itens que ficam dentro do IMAGE_DOS_HEADER:
---------------------------------------------------------
+	typedef struct IMAGE_DOS_HEADER
+	{
+	     WORD e_magic;    -  Assinatura "MZ" ( DOS Signature )
+	     WORD e_cblp;     -  Tamanho da última página.
+	     WORD e_cp;       -  Total de páginas.
+	     WORD e_crlc;     -  Itens de relocação.
+	     WORD e_cparhdr;  -  Tamanho do cabeçalho DOS.
+	     WORD e_minalloc; - Tamanho mínimo da memória.
+	     WORD e_maxalloc; - Tamanho máximo da memória.
+	     WORD e_ss;       - Valor inicial do registrador SS ( Stack Segment )
+	     WORD e_sp;       - Valor inicial do registrador SP ( Stack Pointer )
+	     WORD e_csum;     - Checksum do cabeçalho DOS
+	     WORD e_ip;       - Valor inicial do registrador IP ( Instrution Pointer )
+	     WORD e_cs;       - Valor inicial do registrador CS ( Code Segment )
+	     WORD e_lfarlc;   - Offset do fragmento stub do DOS.
+	     WORD e_ovno;     - Overlay
+	     WORD e_res[4];   -  
+	     WORD e_oemid;    - Identificador OEM
+	     WORD e_oeminfo;  - Informações OEM
+	     WORD e_res2[10]; -
+	     LONG e_lfanew;   - Offset do cabeçalho PE COFF
+	} 
+	IMAGE_DOS_HEADER;
+
+
+
+
+Detalhes dos campos do IMAGE_DOS_HEADER:
+-----------------------------------------
 
 
 ##### e_magic
