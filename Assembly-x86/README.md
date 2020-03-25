@@ -6,11 +6,8 @@ Utilitário de Assembly para Reversing
 _Documentos escritos/traduzidos por mim, ao decorrer do meu aprendizado sobre o assunto_
 
 
-Índice
+Threads
 --------
-
-
-[Introdução](00-intro.md)
 
 [Instructions Assembly](01-instrucoes.md)
 

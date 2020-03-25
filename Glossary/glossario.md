@@ -117,6 +117,12 @@ Termos/Conceitos utilizados pela Microsoft
 		
 		UINT : unsigned int ou DWORD (32-bits)
 
+
+
+Termos diversos
+---------------
+
+
 - attribute certificate
 
 - date/time stamp
@@ -132,15 +138,3 @@ Termos/Conceitos utilizados pela Microsoft
 - RVA :
 
 - VA : 
-
-Termos diversos
----------------
-
-
-*uint16_t* =  é um tipo na linguagem C que define uma variável de 16 bits ou 2 bytes
-
-*uint16_t e_res[4]* = que é um array de 4 campos de 16 bits, totalizando em 64 bits ou 8 bytes.
-
-*uint16_t e_res2[10]* = que é um array de 10 campos de 16 bits, totalizando em 160 bits ou 20 bytes.
-
-*uint32_t e_lfanew* = que é um campo de 32 bits ou 4 bytes.

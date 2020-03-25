@@ -9,11 +9,11 @@ _Abaixo a estrutura oficial do "DOS Header"_ :
 
 	typedef struct IMAGE_DOS_HEADER
 	{
-	     WORD e_magic;    -  Assinatura "MZ" ( DOS Signature )
-	     WORD e_cblp;     -  Tamanho da última página.
-	     WORD e_cp;       -  Total de páginas.
-	     WORD e_crlc;     -  Itens de relocação.
-	     WORD e_cparhdr;  -  Tamanho do cabeçalho DOS.
+	     WORD e_magic;    - Assinatura "MZ" ( DOS Signature )
+	     WORD e_cblp;     - Tamanho da última página.
+	     WORD e_cp;       - Total de páginas.
+	     WORD e_crlc;     - Itens de relocação.
+	     WORD e_cparhdr;  - Tamanho do cabeçalho DOS.
 	     WORD e_minalloc; - Tamanho mínimo da memória.
 	     WORD e_maxalloc; - Tamanho máximo da memória.
 	     WORD e_ss;       - Valor inicial do registrador SS ( Stack Segment )
@@ -23,10 +23,10 @@ _Abaixo a estrutura oficial do "DOS Header"_ :
 	     WORD e_cs;       - Valor inicial do registrador CS ( Code Segment )
 	     WORD e_lfarlc;   - Offset do fragmento stub do DOS.
 	     WORD e_ovno;     - Overlay
-	     WORD e_res[4];   -  
+	     WORD e_res[4];   - 
 	     WORD e_oemid;    - Identificador OEM
 	     WORD e_oeminfo;  - Informações OEM
-	     WORD e_res2[10]; -
+	     WORD e_res2[10]; - 
 	     LONG e_lfanew;   - Offset do cabeçalho PE COFF
 	} 
 	IMAGE_DOS_HEADER;

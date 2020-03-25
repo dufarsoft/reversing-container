@@ -1,7 +1,6 @@
 Convenções x86
 ---------------
 
-
 #### Bits, Bytes , Words, Dwords...
 
 
@@ -11,7 +10,7 @@ Medida      | Tamanho (intel) | Nomeclatura (intel) |C lang
 ------------|-----------------|---------------------|---------
 nibble      | 4 bits          |                     |
 byte        | 8 bits          | BYTE                | char
-Words       | 16 bits         | WORD                | short int
+word        | 16 bits         | WORD                | short int
 double word | 32 bits         | DWORD               | int
 quad word   | 64 bits         | QWORD               | long int
 
