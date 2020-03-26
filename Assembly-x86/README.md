@@ -11,7 +11,7 @@ Threads
 
 [Instructions Assembly](01-instrucoes.md)
 
-[Lista de Mnemônicos](Mnemonics/readme.md)
+[Mnemônics](Mnemonics/readme.md)
 
-[Dicas e Convenções](02-convencoes.md)
+[Tips](02-convencoes.md)
 
