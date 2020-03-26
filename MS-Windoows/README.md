@@ -1,11 +1,4 @@
-Engenharia Reversa MS-Windows
--------------------------------
-
-### Repleto de conteúdo sobre engenharia reversa em binários MS-Windows, Minucias do MS-Windows UserLand, Minucias do MS-Windows KernelLand , Sysinternals etc..
-
-
-
-Conteúdos
+Threads
 ----------
 
 [Registro do Windows "regedit"](Windows_registry/00-intro.md)
