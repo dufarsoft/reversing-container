@@ -9,7 +9,7 @@ _Documentos escritos/traduzidos por mim, ao decorrer do meu aprendizado sobre o 
 Threads
 --------
 
-[Instructions Assembly](01-instrucoes.md)
+[Assembly Instructions](01-instrucoes.md)
 
 [Mnemônics](Mnemonics/readme.md)
 
